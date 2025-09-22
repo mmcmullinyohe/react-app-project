@@ -17,7 +17,11 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const fetchMovies = async () => {
-    
+    try {
+
+    } catch (error) {
+      
+    }
   }
 
   useEffect(() => {
