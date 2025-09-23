@@ -17,7 +17,7 @@ export const updateSearchCount = async (searchTerm, movie) => {
     Query.equal('searchTerm', searchTerm),
   ])
 
- 
+
   if(result.documents.length > 0) {
    const doc = result.documents[0];
 
